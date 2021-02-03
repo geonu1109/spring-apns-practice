@@ -1,0 +1,27 @@
+# 에시
+
+POST http://localhost:8080/api/apns
+Content-Type: application/json
+
+{
+  "bundleId": "com.mecaro.daouoffice",
+  "certFilename": "mecaro.p12",
+  "certPassword": "1q2w3e4r",
+  "apnsToken": "dd2ba5b4dc5fa51f19492f5332e96568583e61fb780b3bc902d653724349a318",
+  "title": "test apns title",
+  "body": "test apns body"
+}
+
+###
+
+POST http://localhost:8080/api/apns
+Content-Type: application/json
+
+{
+  "bundleId": "com.mecaro.daouoffice",
+  "certFilename": "mecaro.p12",
+  "certPassword": "1q2w3e4r",
+  "apnsToken": "dd2ba5b4dc5fa51f19492f5332e96568583e61fb780b3bc902d653724349a318",
+  "title": "test apns title",
+  "body": "test apns body"
+}
